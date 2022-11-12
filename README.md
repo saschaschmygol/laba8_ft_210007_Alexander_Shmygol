@@ -22,10 +22,10 @@ ____
 ____
 Открыть проект можно в Visual Studio Code или PyCharm 2021.
 
-- l8_Shmygol_A_P_ft_210007.py - файл для запуска программы
+- laba8_ft_210007_Alexander_Shmygol.py - файл для запуска программы
 ____
-![screen_1](https://github.com/saschaschmygol/laba7_ft_210007_Alexander_Shmygoll/raw/main/l8_1.png)
+![screen_1](https://github.com/saschaschmygol/laba8_ft_210007_Alexander_Shmygol/raw/main/l8_1.png)
 
-![screen_2](https://github.com/saschaschmygol/laba7_ft_210007_Alexander_Shmygoll/raw/main/l8_2.png)
+![screen_2](https://github.com/saschaschmygol/laba8_ft_210007_Alexander_Shmygol/raw/main/l8_2.png)
 
-![screen_2](https://github.com/saschaschmygol/laba7_ft_210007_Alexander_Shmygoll/raw/main/l8_3.png)
+![screen_2](https://github.com/saschaschmygol/laba8_ft_210007_Alexander_Shmygol/raw/main/l8_3.png)
