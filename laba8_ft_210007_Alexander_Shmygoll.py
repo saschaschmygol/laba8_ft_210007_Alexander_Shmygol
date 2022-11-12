@@ -3,7 +3,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, filename="py_log.log", format="%(asctime)s %(levelname)s %(message)s")
 
-while True:
+while True:                                                      # проверка правильности ввода n
     try:
         n = int(input('Введите число'))
         logging.info(f'Введено число {n}')
@@ -16,7 +16,7 @@ while True:
     p = list(range(1, n + 1))
     s_p = []
 
-    for x in range(n):
+    for x in range(n):                                                # заполнение списка случайными числами от 1 до n
         t = random.choice(p)
         logging.info(f'{x}-раз выпало число {t}')
         s_p.append(t)
@@ -24,7 +24,7 @@ while True:
 
     print(s_p)
 
-    while True:
+    while True:                                                        # проверка условия , жеребьевка продолжается или нет
         try:
             r = int(input('Продолжаем жеребьевку (Да - 1\Нет - 2) '))
             logging.info(f'Введено {r}')
@@ -36,10 +36,6 @@ while True:
         ''
     else:
         break
-
-
-
-
 
 
 
