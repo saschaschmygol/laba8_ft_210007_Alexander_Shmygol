@@ -14,19 +14,25 @@ while True:                                                      # провер�
 
 while True:
     p = list(range(1, n + 1))
-    s_p = []
 
-    for x in range(n):                                                # заполнение списка случайными числами от 1 до n
-        t = random.choice(p)
-        logging.info(f'{x}-раз выпало число {t}')
-        s_p.append(t)
-        p.remove(t)
-
-    print(s_p)
+    while True:
+        b = int(input('показать число - 1 :'))
+        if b == 1:
+            if len(p) != 0:
+                t = random.choice(p)
+                logging.info(f'выпало число {t}')
+                p.remove(t)
+                print(t)
+            else:
+                print('Боченки закончились =(')
+                logging.info(f'Боченки закончились')
+                break
+        else:
+            ''
 
     while True:                                                        # проверка условия , жеребьевка продолжается или нет
         try:
-            r = int(input('Продолжаем жеребьевку (Да - 1\Нет - 2) '))
+            r = int(input('Начать жеребьевку заново (Да - 1\Нет - 2) '))
             logging.info(f'Введено {r}')
             break
         except ValueError:
@@ -36,7 +42,6 @@ while True:
         ''
     else:
         break
-
 
 
 
